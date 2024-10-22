@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/artemkovalenok/RiderProjects/ConsoleApp1/CommentsNotifBot/CommentsNotifBot.csproj": {}
+  },
+  "projects": {
+    "/Users/artemkovalenok/RiderProjects/ConsoleApp1/CommentsNotifBot/CommentsNotifBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/artemkovalenok/RiderProjects/ConsoleApp1/CommentsNotifBot/CommentsNotifBot.csproj",
+        "projectName": "CommentsNotifBot",
+        "projectPath": "/Users/artemkovalenok/RiderProjects/ConsoleApp1/CommentsNotifBot/CommentsNotifBot.csproj",
+        "packagesPath": "/Users/artemkovalenok/.nuget/packages/",
+        "outputPath": "/Users/artemkovalenok/RiderProjects/ConsoleApp1/CommentsNotifBot/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/artemkovalenok/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/x64/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[18.0.0, )"
+            },
+            "Telegram.Bot.Extensions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Telegram.Bots.Extensions.Polling": {
+              "target": "Package",
+              "version": "[5.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
